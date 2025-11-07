@@ -6,4 +6,4 @@ var printTopThreeHeadlines = (...value) => {
     return value[0], value[1], value[2];
 };
 
-printTopThreeHeadlines = printTopThreeHeadlines("headlines", "headlines", "headlines");
+headlines = printTopThreeHeadlines("headlines", "headlines", "headlines", "headlines");
