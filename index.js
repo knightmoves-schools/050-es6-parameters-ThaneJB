@@ -2,10 +2,8 @@ var calculateTotal = (subtotal, shipping = 2.50) => {
     return subtotal + shipping;
 };
 
-var printTopThreeHeadlines = (...value) => {
-    return value[0], value[1], value[2];
+function printTopThreeHeadlines(...headlines){
+       return headlines.slice(0, 3).join('\n');
 };
 
-headlines = printTopThreeHeadlines(`first headline\nsecond headline\nthird headline`);
-
-var headlines = (`first headline\nsecond headline\nthird headline`);
+modules.exports = { printTopThreeHeadlines };
