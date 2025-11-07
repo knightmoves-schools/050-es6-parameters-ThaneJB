@@ -7,3 +7,5 @@ var printTopThreeHeadlines = (...value) => {
 };
 
 headlines = printTopThreeHeadlines(`first headline\nsecond headline\nthird headline`);
+
+var headlines = (`first headline\nsecond headline\nthird headline`);
